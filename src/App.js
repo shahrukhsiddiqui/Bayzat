@@ -34,7 +34,7 @@ ballChangedhandler = (event) =>{
      display = <h3>There is only 1 way to empty the bag.</h3>
    }
 
-   else if (balls === 2) {
+   else if (balls === 2) { 
     display = <h3>There are 2 ways to empty the bag.</h3>
    }
    
