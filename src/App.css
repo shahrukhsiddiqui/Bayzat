@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: rgb(150, 71, 255);
+  color: white;
+}
+
+
+.Result{
+  color: white;
+  background-Color: rgb(150, 71, 255);
+  padding: 10px;
+  font-Family: Arial;
+  margin-top: 100px;
+ }
+
+a{
+  color: white;
+  font-Family: Arial;
+  font-weight: 900;
+  font-size: 3em;
+  text-decoration: none;
+}
+a:hover{
+  opacity: .8;
+  
+}
+
+.App input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:rgba(253, 253, 253, 0.5);
+  width:20%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+  width: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+
